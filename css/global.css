@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Import css */
+
+@import url(/css/main.css);
+
+/* Global */
+*{
+padding: 0;
+margin: 0;
+
+}
+
+:root{
+
+    --text:black;
+    --background:#EEEEEE;
+    --list:#F7F7F7;
+    --botao:#4183D9;
+    --fundobotao:#B3DAF2;
+    --lixeira:#F25E5E;
+    --fundolixeira:#F2C9C9;
+}
+
+body{
+
+    background-color:var(--background);
+}
