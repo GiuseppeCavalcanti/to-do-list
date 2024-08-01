@@ -5,24 +5,27 @@
 @import url(/css/main.css);
 
 /* Global */
-*{
-padding: 0;
-margin: 0;
+* {
+    padding: 0;
+    margin: 0;
 
 }
 
-:root{
+:root {
 
-    --text:black;
-    --background:#EEEEEE;
-    --list:#F7F7F7;
-    --botao:#4183D9;
-    --fundobotao:#B3DAF2;
-    --lixeira:#F25E5E;
-    --fundolixeira:#F2C9C9;
+    --texttitulo: black;
+    --text:rgb(171, 171, 171);
+    --background: #EEEEEE;
+    ---border: rgba(255, 255, 255, 0.30);
+
+    --list: #F7F7F7;
+    --botao: #4183D9;
+    --fundobotao: #B3DAF2;
+    --lixeira: #F25E5E;
+    --fundolixeira: #F2C9C9;
 }
 
-body{
+body {
 
-    background-color:var(--background);
+    background-color: var(--background);
 }

@@ -1,0 +1,130 @@
+/* APP */
+
+div#app {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    margin: auto;
+    background-color: pink;
+}
+
+
+div#app>h1 {
+    color: var(--texttitulo);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+/* Input e  button */
+
+div#add {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: transparent;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+
+#inputtask {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(181, 181, 181, 0.493);
+    padding: 8px;
+
+}
+
+::placeholder {
+    font-size: 1.1em;
+    color: var(--text);
+
+}
+
+#buttoncriar {
+    font-size: 0.9em;
+    color: white;
+    background-color: var(--botao);
+    border-radius: 15px;
+    width: 65px;
+    border: none;
+    padding: 8px;
+
+
+}
+
+#buttoncriar:hover {
+    cursor: pointer;
+}
+
+
+/* Status */
+
+div#task {
+    display: flex;
+    
+    
+    width: 400px;
+    margin: auto;
+    background-color: rgb(123, 255, 0);
+
+}
+
+#atividades{
+
+    color: yellowgreen;
+}
+
+#nunatividades{
+
+}
+
+/* task list */
+
+ul{
+
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+ul > li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--list);
+    list-style: none;
+    width: 400px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 10px;
+
+}
+
+svg{
+
+    margin-right: 10px;
+    
+}
+
+svg#checks{
+
+    background-color: var(--fundolixeira);
+    color: var(--botao);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+svg#lix{
+    background-color: var(--fundolixeira);
+    color: var(--lixeira);
+    padding: 4px;
+    border-radius: 5px;
+}
