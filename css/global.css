@@ -4,6 +4,13 @@
 
 @import url(/css/main.css);
 
+/* Import Font */
+/* font Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Global */
 * {
     padding: 0;
@@ -23,6 +30,10 @@
     --fundobotao: #B3DAF2;
     --lixeira: #F25E5E;
     --fundolixeira: #F2C9C9;
+
+
+    --fontnoto: "Noto Sans", sans-serif;
+    --fontopen: "Open Sans", sans-serif;
 }
 
 body {
