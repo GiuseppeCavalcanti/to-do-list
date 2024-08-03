@@ -3,8 +3,9 @@
 div#app {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 600px;
     margin: auto;
+   
     /* background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     border-radius: 0px 0px 20px 20px; */
@@ -38,6 +39,7 @@ div#add {
 
 
 #inputtask {
+    width: 300px;
     background-color: transparent;
     border-radius: 15px;
     border: 1px solid rgba(181, 181, 181, 0.493);
@@ -79,11 +81,14 @@ div#task {
 }
 
 div#status {
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    padding: 0px 5px 0px 5px;
+    
+    margin: auto;
+    padding: 0px 7px 0px 5px;
 
 }
 
@@ -125,11 +130,12 @@ ul>li {
     justify-content: space-between;
     background-color: var(--list);
     list-style: none;
-    width: 400px;
+    width: 500px;
     margin: 10px 0px 10px 0px;
     padding: 6px;
-    border: 1px solid rgb(122, 122, 122);
+    border: 1px solid rgba(122, 122, 122, 0.641);
     border-radius: 10px;
+    
 
 
 
@@ -138,6 +144,7 @@ ul>li {
 svg {
 
     margin-right: 10px;
+    
 
 }
 
