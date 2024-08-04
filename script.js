@@ -32,5 +32,7 @@ function newtask() {
             
     }
 
+    inputtask.value = ''
+
 }
 
