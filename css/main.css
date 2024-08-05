@@ -124,7 +124,7 @@ ul {
 ul>li {
     font-family: var(--fontopen);
     font-size: 1em;
-
+    word-break: normal;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,12 +140,8 @@ ul>li {
 
 
 }
-
-svg {
-
+svg{
     margin-right: 10px;
-    
-
 }
 
 svg#checks {
@@ -161,4 +157,15 @@ svg#lix {
     color: var(--lixeira);
     padding: 4px;
     border-radius: 5px;
+}
+
+svg#lix:hover{
+
+    cursor: pointer;
+    
+}
+
+svg#checks:hover{
+
+    cursor: pointer;
 }
