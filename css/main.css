@@ -6,9 +6,9 @@ div#app {
     width: 600px;
     margin: auto;
    
-    /* background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    border-radius: 0px 0px 20px 20px; */
+    border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -140,32 +140,36 @@ ul>li {
 
 
 }
-svg{
+img{
     margin-right: 10px;
+
 }
 
-svg#checks {
 
+.verificado {
+    width: 18px;
     background-color: var(--fundobotao);
     color: var(--botao);
     padding: 4px;
     border-radius: 5px;
 }
 
-svg#lix {
+.lixeira {
+    width: 18px;
     background-color: var(--fundolixeira);
     color: var(--lixeira);
     padding: 4px;
     border-radius: 5px;
 }
+.verificado:hover{
 
-svg#lix:hover{
+    cursor: pointer;
+}
+
+
+.lixeira:hover{
 
     cursor: pointer;
     
 }
 
-svg#checks:hover{
-
-    cursor: pointer;
-}
