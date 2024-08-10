@@ -4,11 +4,11 @@ div#app {
     display: flex;
     flex-direction: column;
     width: 600px;
-    margin: auto;
+    margin: 120px auto;
    
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px;
 }
 
 
@@ -51,6 +51,7 @@ div#add {
 ::placeholder {
     font-size: 1.1em;
     color: var(--text);
+    
 
 }
 
